@@ -1,0 +1,19 @@
+{
+  "name": "attus/og_reader",
+  "description": "Web Page OG Information Reader",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Attus\\OgReader\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Attila Németh",
+      "email": "attilanemeth@gmx.de"
+    }
+  ],
+  "reqire": {
+    "guzzlehttp/guzzle": "^6.3"
+  }
+}
