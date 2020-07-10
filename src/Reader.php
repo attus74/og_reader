@@ -7,7 +7,7 @@ use GuzzleHttp\Client;
 /**
  * OG:Reader
  *
- * @author Attila Németh
+ * @author Attila NÃ©meth
  * 16.06.2020
  */
 class Reader {
@@ -60,7 +60,7 @@ class Reader {
    * @param type $name
    * @return string
    */
-  public function getValue($name): string
+  public function getValue($name)
   {
     if (array_key_exists($name, $this->_ogValues)) {
       return $this->_ogValues[$name];
